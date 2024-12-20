@@ -27,7 +27,7 @@ require (
 	github.com/docker/go-connections v0.4.0
 	github.com/envoyproxy/go-control-plane v0.11.1
 	github.com/envoyproxy/go-control-plane/xdsmatcher v0.0.0-20230524161521-aaaacbfbe53e
-	github.com/fatih/color v1.15.0
+	github.com/fatih/color v1.16.0
 	github.com/fsnotify/fsnotify v1.6.0
 	github.com/go-jose/go-jose/v3 v3.0.3
 	github.com/go-openapi/runtime v0.26.0
@@ -49,12 +49,12 @@ require (
 	github.com/hashicorp/go-cleanhttp v0.5.2
 	github.com/hashicorp/go-connlimit v0.3.0
 	github.com/hashicorp/go-discover v0.0.0-20220714221025-1c234a67149a
-	github.com/hashicorp/go-hclog v1.5.0
+	github.com/hashicorp/go-hclog v1.6.3
 	github.com/hashicorp/go-immutable-radix v1.3.1
 	github.com/hashicorp/go-memdb v1.3.4
 	github.com/hashicorp/go-multierror v1.1.1
 	github.com/hashicorp/go-raftchunking v0.7.0
-	github.com/hashicorp/go-retryablehttp v0.7.4
+	github.com/hashicorp/go-retryablehttp v0.7.7
 	github.com/hashicorp/go-secure-stdlib/awsutil v0.1.6
 	github.com/hashicorp/go-sockaddr v1.0.2
 	github.com/hashicorp/go-syslog v1.0.0
