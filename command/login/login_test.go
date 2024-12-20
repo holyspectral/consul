@@ -13,7 +13,6 @@ import (
 
 	"github.com/mitchellh/cli"
 	"github.com/stretchr/testify/require"
-	"gopkg.in/square/go-jose.v2/jwt"
 
 	"github.com/hashicorp/consul-awsauth/iamauthtest"
 	"github.com/hashicorp/consul/agent"
@@ -24,6 +23,8 @@ import (
 	"github.com/hashicorp/consul/internal/go-sso/oidcauth/oidcauthtest"
 	"github.com/hashicorp/consul/sdk/testutil"
 	"github.com/hashicorp/consul/testrpc"
+
+	"github.com/go-jose/go-jose/v3/jwt"
 )
 
 func TestLoginCommand_noTabs(t *testing.T) {
